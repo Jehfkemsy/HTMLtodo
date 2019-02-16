@@ -1,0 +1,52 @@
+@import 'https://fonts.googleapis.com/css?family=Karla';
+
+body{
+    background-color: white;
+}
+.listContainer{
+    text-align: center;
+}
+.todoInput {
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    height: 20px;
+    width: 30%;
+    background-color:white;
+    
+}
+
+myButton {
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+li {
+    font-size: 30px;
+    text-decoration-style: 
+}
+removeItem{
+    display: flex;
+    justify-content: center;
+    height: 20px;
+    width: 30%;
+    background-color:white;
+}
+h1 {
+    font-family: "karla", sans-serif;
+    display: flex;
+    font-size: 50px;
+    justify-content: center;
+    color: black;
+    text-decoration: underline;
+    background-color: lightcoral;
+    width: 60%;
+}
+
+.container{
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
