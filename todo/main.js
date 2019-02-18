@@ -1,6 +1,6 @@
 
 var addButton = document.getElementById("myButton");
-var removeButton = document.getElementById("secondButton");
+var removeButton = document.getElementById("removeButton");
 var todoItems = [];
 
 addButton.addEventListener("click", () => {

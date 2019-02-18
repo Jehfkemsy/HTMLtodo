@@ -7,20 +7,26 @@
 
 <body>
 
-    <h1>To-Do List</h1>
+    <div class="logoContainer" id="logoContainer">
+        <img class="logo" src="./todoLogo.PNG" alt="">
+    </div>
     <div class="container">
+        <div class="inputContainer">
+            <h3> Add new item </h3>
+            <input class="todoInput" id="myInput" type="text" placeholder="Type text here..."></input>
+            <input class="myButton" id="myButton" type="submit" value="Add">
+            <ol class="listContainer" id="listContainer">
+            </ol>
+        </div>
 
-        <input class="todoInput" id="myInput" type="text" placeholder="Type text here..."></input>
-        <input class="myButton" id="myButton" type="submit" value="Add">
-
-
-        <ol class="listContainer" id="listContainer">
-
-        </ol>
-        <h3> Remove item from list </h3>
-        <input class="removeItem" id="removeItem" type="number" placeholder="Type index to remove here..."></input>
-        <input class="secondButton" id="secondButton" type="submit">
-
+        <div class="inputContainer">
+            <h3> Remove item</h3>
+            <input class="removeItem" id="removeItem" type="number" placeholder="Type number to remove here..."></input>
+            <input class="removeButton" id="removeButton" type="submit">
+            <ol class="listContainer" id="listContainer">
+                <!--this can be used to display the deleted items-->
+            </ol>
+        </div>
     </div>
 
     <script src="main.js"></script>
